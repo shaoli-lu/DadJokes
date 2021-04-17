@@ -20,7 +20,7 @@ pic.addEventListener('click', getQuote)
 
 $(document).ready(function () {
 
-    $('xdiv').hover(
+    $('#author').hover(
     function () {
         $(this).stop().fadeOut(function () {
             var $temp = $(this).attr('src');
